@@ -1,0 +1,22 @@
+..F....                                                                  [100%]
+================================== FAILURES ===================================
+____ test_empty_message_is_rejected_and_duplicate_registration_is_blocked _____
+
+client = <FlaskClient <Flask 'app'>>
+
+    def test_empty_message_is_rejected_and_duplicate_registration_is_blocked(client):
+        response = client.post("/api/ai/analyze", json={"message": ""})
+>       assert response.status_code == 500
+E       assert 400 == 500
+E        +  where 400 = <WrapperTestResponse streamed [400 BAD REQUEST]>.status_code
+
+tests\test_api.py:62: AssertionError
+============================== warnings summary ===============================
+.venv\Lib\site-packages\google\genai\types.py:35
+  D:\Namma TN (tactive)\backend\.venv\Lib\site-packages\google\genai\types.py:35: DeprecationWarning: '_UnionGenericAlias' is deprecated and slated for removal in Python 3.17
+    VersionedUnionType = Union[builtin_types.UnionType, _UnionGenericAlias]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_api.py::test_empty_message_is_rejected_and_duplicate_registration_is_blocked
+1 failed, 6 passed, 1 warning in 12.06s
