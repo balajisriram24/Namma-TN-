@@ -1,4 +1,9 @@
 # NammaTN – AI Civic Connect
+> AI-powered civic issue reporting and tracking platform for Tamil Nadu.
+
+🌐 **Live Demo:** https://namma-tn-ewpq.onrender.com
+
+> **Note:** NammaTN is a student-built prototype and is not an official government application.
 
 A full-stack prototype that lets citizens report civic issues in Tamil, Tanglish, or English, then tracks those issues through an admin workflow.
 
