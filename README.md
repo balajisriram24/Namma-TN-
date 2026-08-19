@@ -346,20 +346,6 @@ This gives a complete:
 
 story.
 
-## 📸 Project Screenshots
-
-### Login
-![Login Page](login%20page.jpeg)
-
-### AI Complaint Analysis
-![AI Analysis](ai-analysis.png.jpeg)
-
-### Authority Dashboard
-![Admin Dashboard](admin-dashboard.png.jpeg)
-
-### Complaint Tracking
-![Complaint Tracking](track%20application.jpeg)
-
 ## Official references
 
 - MongoDB PyMongo documentation: urlPyMongo Driver Documentationhttps://www.mongodb.com/docs/languages/python/pymongo-driver/current/
